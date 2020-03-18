@@ -30,8 +30,5 @@ class TodoController extends Controller
             $todo->save();
             return redirect('/');
         }
-
-
-
     }
 }
